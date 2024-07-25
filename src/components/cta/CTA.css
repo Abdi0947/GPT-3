@@ -1,0 +1,36 @@
+.gpt3__cta-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 8rem;
+    padding:4rem;
+    border-radius: 15px;
+    background:linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    /* paddin:6rem; */
+}
+.gpt3__cta-container h3{
+    font-family: var(--font-family);
+    max-width: 510px;
+    color:linear-gradient(90deg, rgba(69, 51, 164, 1) 1%, rgba(20, 47, 114, 1) 100%);
+}
+.gpt3__cta{
+   margin:5rem;
+    background:#031B34;
+}
+/* making responsive  */
+@media (max-width: 850px) {
+    .gpt3__cta-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gpt3__cta-content {
+        text-align: left;
+        margin-right: 20px;
+    }
+    button[type='submit'] {
+        padding: 8px 18px;
+        font-size: 1em;
+        margin-top:20px;
+    }
+}

@@ -1,0 +1,117 @@
+.gpt3__header{
+    padding:4rem 6rem;;
+    display:flex;
+    justify-content:space-between;
+    /* background:  linear-gradient(90deg, rgba(184, 78, 184, 1) 0%, rgba(13, 13, 208, 1) 100%); */
+}
+.ai-image img{
+    height:350px;
+    width:380px;
+    padding-left:2rem;
+}
+h1{
+    font-size:50px;
+    font-weight:700;
+    font-family: var(--font-family);
+    max-width: 510px;
+    color:#E7ACEF;
+}
+.paragraphs p{
+    margin:2rem 0;
+    font-size:18px;
+    color:#FFF;
+}
+button{
+    padding:10px;
+    color:#fff;
+    background:#FF4820;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.get-started input {
+    width: 300px; 
+    height: 35px; 
+    font-size: 16px; 
+    background: linear-gradient(90deg, rgba(3, 3, 33, 1) 0%, rgba(126, 46, 126, 1) 100%);
+    color:#fff;
+  }
+.witness{
+    display:flex;
+    align-items:center;
+    margin:2rem 0;
+}
+.witness p{
+    color:#fff;
+    padding-left:10px;
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__header {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .non-image-part {
+        margin-right: 0;
+        text-align: center;
+      }
+      h1{
+        font-size:50px;
+        font-weight:700;
+      }
+    
+      .get-started input {
+        width: 150px; /* Adjust the width as needed */
+        height: 30px; /* Adjust the height as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+      }
+      .paragraphs p{
+       font-size:15px;
+    }
+      button{
+        padding:8px;
+        color:#fff;
+        background:#FF4820;
+        border:none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+/* ======for tablet======= */
+@media screen and (max-width: 700px) {
+    .gpt3__header {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .non-image-part {
+        margin-right: 0;
+        text-align: center;
+      }
+      h1{
+        font-size:50px;
+        font-weight:700;
+      }
+    
+      .get-started input {
+        width: 150px; /* Adjust the width as needed */
+        height: 30px; /* Adjust the height as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+      }
+      .paragraphs p{
+       font-size:15px;
+    }
+      button{
+        padding:8px;
+        color:#fff;
+        background:#FF4820;
+        border:none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+}

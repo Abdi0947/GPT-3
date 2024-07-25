@@ -1,0 +1,68 @@
+.gpt3__footer-contents{
+    color:#fff;
+}
+.gpt3__footer-heading h2{
+    font-size:42px;
+    text-align:center;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    color:#E7ACEF;
+    margin:6rem;
+}
+.gpt3__footer-heading {
+    text-align: center; 
+    margin: 20px; 
+}
+
+.gpt3__footer-heading button {
+    display: block;
+    margin: 80px auto 0; 
+    border: 1px solid white; 
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s, font-weight 0.3s; 
+}
+.image-name{
+    margin:4rem;
+}
+
+.gpt3__footer-heading button:hover {
+    background-color: red; 
+    font-weight: bold; 
+}
+.gpt3__footer-heading h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.gpt3__footer-heading button{
+   text-align:center;
+}
+.gpt3__footer-contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:8rem;
+   
+
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    margin:1rem;
+}
+h4{
+    margin:1rem;
+    font-size:22px;
+}
+.gpt3__footer-copyright{
+    text-align:center;
+    margin:2rem;
+}
+.gpt3__footer-copyright p{
+    color:#fff;
+}
