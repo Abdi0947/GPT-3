@@ -1,11 +1,11 @@
-import React from 'react'
-import './Article.css'
-const Article = () => {
-  return (
-    <div>
-      article
-    </div>
-  )
-}
+// import React from 'react'
+// import './Article.css'
+// const Article = () => {
+//   return (
+//     <div>
+//       article
+//     </div>
+//   )
+// }
 
-export default Article
+// export default Article

@@ -56,6 +56,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-left:2rem;
 }
 /* responsive */
 @media (max-width: 1240px) {
@@ -69,5 +70,19 @@
 @media (max-width: 870px) {
     .gpt3__blog-two-three{
         flex-direction:column;
+    }
+    .gpt3__blog-content{
+        margin-left:2rem;
+        /* margin-right:2rem; */
+    }
+    .gpt3__blog-two-three img{
+        height:100px;
+        width:180px;
+    }
+    .gpt3__blog-one img{
+        height:150px;
+    }
+    .gpt3__blog{
+        width:80%;
     }
 }

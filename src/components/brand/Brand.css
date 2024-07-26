@@ -1,15 +1,23 @@
-.brand{
-    background:black;
+.brands-of-gpt3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.brand img{
-    padding:3rem 2rem;
-    margin-left:5rem;
+
+.brand {
+  background:black;
+  padding:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Adjust gap as needed */
+  width: 100%; 
 }
-@media screen and (max-width: 700px) {
-    .brand img{
-        padding:1rem ;
-        margin-left:3rem;
-        height:60px;
-        width:80px;
-    }
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .brand {
+    flex-wrap: wrap; /* Allow images to wrap to next line */
+    justify-content: space-around;
+  }
 }

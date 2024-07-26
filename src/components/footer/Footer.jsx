@@ -3,7 +3,7 @@ import './Footer.css'
 import logo from '../../assets/logo.svg'
 const Footer = () => {
   return (
-    <div>
+    <div className='all-footer'>
       <div className='gpt3__footer-heading'>
         <h2>Do you want to step in to the future before others</h2>
         <button type='submit'>Request Early access</button>
