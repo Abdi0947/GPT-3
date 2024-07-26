@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import {Article,Brand,CTA,Footer,Navbar} from './components';
+import {Brand,CTA,Footer,Navbar} from './components';
 import {Blog,Header,Possibility,Features,WhatGPT3} from './container';
 import './App.css';
 function App() {
